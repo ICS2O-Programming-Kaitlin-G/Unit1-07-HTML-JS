@@ -25,11 +25,11 @@
     <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
     <!-- Popup -->
     <script>
-      function thisButtonClicked() {
+      function myButtonClicked() {
         alert("heha")
       }
     </script>
-    
+
     <div class = "mdl-layout mdl-js-layout--fixed-header">
   
       <!-- Web page header -->
@@ -44,19 +44,32 @@
     <main class = "mdl-layout__content" style = "padding-left:10px">
 
     <!-- Colored FAB button with ripple -->
-    <button onclick="thisButtonClicked=()" class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
+    <center>
+      <button onclick="myButtonClicked()" class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
       <i class="material-icons">add</i>
+      </button>
+
+    <!-- Second Button -->
+    <button onclick="thisButtonClicked()" class="mdl-button mdl-js-button mdl-button--accent">
+      CSS
     </button>
 
+    <!-- Popup Function -->
+    <script>
+      function thisButtonClicked() {
+        alert("Style is Still Important")
+      }
+    </script>
 
     <!-- Text describing button function -->
     <br>
     <br>
-    <p>Look above at this polite being. They wish to say hello.</p>
+    <p>Press the plus button for a new message. Or, press the CSS button for a 
+    𝓶𝔂𝓼𝓽𝓮𝓻𝓲𝓸𝓾𝓼 message.</p>
 
     <!-- Link to a second webpage -->
-    <p>This <a href="./maximum-vibes.html">link</a> will lead you to another
-    epic website</p>
+    <p>This <a href="./index.html">link</a> will lead you back to the main
+    web page</p>
     </center>
     </main>
     </div>
